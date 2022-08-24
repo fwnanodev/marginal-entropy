@@ -2,12 +2,13 @@
 import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
+import logo from './logo.png'
 
 const navigation = [
-  { name: 'Product', href: '#' },
-  { name: 'Features', href: '#' },
-  { name: 'Marketplace', href: '#' },
-  { name: 'Company', href: '#' },
+  { name: 'Home', href: '#' },
+  { name: 'About', href: '#' },
+  { name: 'Programs', href: '#' },
+  { name: 'Contact', href: '#' },
 ]
 
 export default function Example() {
@@ -15,7 +16,7 @@ export default function Example() {
     <div className="relative bg-gray-50 overflow-hidden">
       <div className="hidden sm:block sm:absolute sm:inset-y-0 sm:h-full sm:w-full" aria-hidden="true">
         <div className="relative h-full max-w-7xl mx-auto">
-          <svg
+          {/* <svg
             className="absolute right-full transform translate-y-1/4 translate-x-1/4 lg:translate-x-1/2"
             width={404}
             height={784}
@@ -35,8 +36,8 @@ export default function Example() {
               </pattern>
             </defs>
             <rect width={404} height={784} fill="url(#f210dbf6-a58d-4871-961e-36d5016a0f49)" />
-          </svg>
-          <svg
+          </svg> */}
+          {/* <svg
             className="absolute left-full transform -translate-y-3/4 -translate-x-1/4 md:-translate-y-1/2 lg:-translate-x-1/2"
             width={404}
             height={784}
@@ -56,7 +57,7 @@ export default function Example() {
               </pattern>
             </defs>
             <rect width={404} height={784} fill="url(#5d0dd344-b041-4d26-bec4-8d33ea57ec9b)" />
-          </svg>
+          </svg> */}
         </div>
       </div>
 
@@ -70,7 +71,7 @@ export default function Example() {
                     <span className="sr-only">Workflow</span>
                     <img
                       className="h-8 w-auto sm:h-10"
-                      src="https://tailwindui.com/img/logos/workflow-mark.svg?color=indigo&shade=600"
+                      src={logo}
                       alt=""
                     />
                   </a>
@@ -115,7 +116,7 @@ export default function Example() {
                   <div>
                     <img
                       className="h-8 w-auto"
-                      src="https://tailwindui.com/img/logos/workflow-mark.svg?color=indigo&shade=600"
+                      src={logo}
                       alt=""
                     />
                   </div>
@@ -145,9 +146,9 @@ export default function Example() {
 
         <main className="mt-16 mx-auto max-w-7xl px-4 sm:mt-24">
           <div className="text-center">
-            <h1 className="text-4xl tracking-tight font-bold text-gray-900 sm:text-5xl sm:tracking-tight md:text-6xl md:tracking-tight">
-              <span className="block xl:inline">Data to enrich your</span>{' '}
-              <span className="block text-indigo-600 xl:inline">online business</span>
+            <h1 className="text-4xl tracking-tight font-bold text-stone-700 sm:text-5xl sm:tracking-tight md:text-6xl md:tracking-tight">
+              <span className="block xl:inline">Marginal</span>{' '}
+              <span className="block text-[#02AAB0] xl:inline">Entropy</span>
             </h1>
             <p className="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
               Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
