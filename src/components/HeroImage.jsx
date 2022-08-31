@@ -1,6 +1,18 @@
 import Navigation from "./Navigation";
+import { useEffect, useState, useCallback } from "react";
 
 export default function HeroImage() {
+
+const [bannerText, setBannerText] = useState();
+
+const getBannerText = useCallback(() => {
+  fetch("http://localhost:7071/api/GetBannerText").then((res) => setBannerText(res))
+})
+
+
+
+
+
   return (
     <div className="relative bg-gray-50 overflow-hidden">
       <div
