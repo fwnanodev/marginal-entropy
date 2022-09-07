@@ -1,17 +1,19 @@
 import Navigation from "./Navigation";
 import { useEffect, useState, useCallback } from "react";
+import getBannerText from "../services/getBannerText";
 
 export default function HeroImage() {
+  const [bannerText, setBannerText] = useState();
 
-const [bannerText, setBannerText] = useState();
+  const fetchData = useCallback(() => {
+    getBannerText().then((rawText) => {
+      setBannerText(rawText);
+    });
+  }, []);
 
-const getBannerText = useCallback(() => {
-  fetch("http://localhost:7071/api/GetBannerText").then((res) => setBannerText(res))
-})
-
-
-
-
+  useEffect(() => {
+    fetchData();
+  }, [fetchData]);
 
   return (
     <div className="relative bg-gray-50 overflow-hidden">
@@ -32,9 +34,7 @@ const getBannerText = useCallback(() => {
               <span className="block text-[#02AAB0] xl:inline">Entropy</span>
             </h1>
             <p className="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-              lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-              fugiat aliqua.
+              {bannerText && bannerText.value}
             </p>
             <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
               <div className="rounded-md shadow"></div>
