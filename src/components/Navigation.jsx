@@ -3,12 +3,13 @@ import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import logo from "./logo.png";
+import { NavLink } from "react-router-dom";
 
 const navigation = [
-  { name: "Home", href: "#" },
-  { name: "About", href: "#" },
-  { name: "Programs", href: "#" },
-  { name: "Contact", href: "#" },
+  { name: "Home", route: "/" },
+  { name: "About", route: "/about" },
+  { name: "Programs", route: "/programs" },
+  { name: "Contact", route: "/contact" },
 ];
 
 const Navigation = () => {
@@ -36,13 +37,14 @@ const Navigation = () => {
             </div>
             <div className="hidden md:flex md:space-x-10">
               {navigation.map((item) => (
-                <a
-                  key={item.name}
-                  href={item.href}
-                  className="font-medium text-gray-500 hover:text-gray-900"
-                >
-                  {item.name}
-                </a>
+                // <a
+                //   key={item.name}
+                //   href={item.href}
+                //   className="font-medium text-gray-500 hover:text-gray-900"
+                // >
+                //   {item.name}
+                // </a>
+                <NavLink className="font-medium text-gray-500 hover:text-gray-900" to={item.route}>{item.name}</NavLink>
               ))}
             </div>
             <div className="hidden md:absolute md:flex md:items-center md:justify-end md:inset-y-0 md:right-0">

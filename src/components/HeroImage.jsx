@@ -1,4 +1,3 @@
-import Navigation from "./Navigation";
 import { useEffect, useState, useCallback } from "react";
 import getBannerText from "../services/getBannerText";
 
@@ -25,8 +24,7 @@ export default function HeroImage() {
       </div>
 
       <div className="relative pt-6 pb-16 sm:pb-24">
-        <Navigation />
-
+        
         <main className="mt-16 mx-auto max-w-7xl px-4 sm:mt-24">
           <div className="text-center">
             <h1 className="text-4xl tracking-tight font-bold text-stone-700 sm:text-5xl sm:tracking-tight md:text-6xl md:tracking-tight">
