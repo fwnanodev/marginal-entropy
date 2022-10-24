@@ -1,5 +1,6 @@
 import HeroImage from "./components/HeroImage";
 import Navigation from "./components/Navigation";
+import Programs from "./components/Programs";
 import { Route, Routes } from "react-router-dom";
 
 function App() {
@@ -20,10 +21,6 @@ export default App;
 
 function About() {
   return <h1>About</h1>;
-}
-
-function Programs() {
-  return <h1>Programs</h1>;
 }
 
 function Contact() {
