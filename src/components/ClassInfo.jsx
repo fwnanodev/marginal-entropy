@@ -16,7 +16,7 @@ export default function ClassInfo() {
         <div className="lg:col-start-2 lg:pl-8">
           <div className="mx-auto max-w-prose text-base lg:ml-auto lg:mr-0 lg:max-w-lg">
             <h3 className="mt-2 text-3xl font-bold leading-8 tracking-tight text-white sm:text-4xl">
-              Minecraft Coding Class
+              Free Minecraft Coding Class
             </h3>
             <p className="mt-8 text-lg text-white">
               We leverage Microsoft's Minecraft Education Curriculum to teach
