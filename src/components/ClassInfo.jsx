@@ -1,4 +1,4 @@
-import minecraftCode from "./Coding_Desktop.png";
+import minecraftCode from "./images/Coding_Desktop.png";
 
 export default function ClassInfo() {
   return (

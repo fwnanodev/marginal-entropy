@@ -1,6 +1,6 @@
-import jocelynn from "./Jocelynn.jpg";
-import allison from "./Ally.jpg";
-import emily from "./Emily.jpg";
+import jocelynn from "./images/Jocelynn.jpg";
+import allison from "./images/Ally.jpg";
+import emily from "./images/Emily.jpg";
 
 const people = [
   {
