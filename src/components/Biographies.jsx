@@ -5,24 +5,24 @@ import emily from "./images/Emily.jpg";
 const people = [
   {
     name: "Jocelynn Hartwig",
-    role: "President | Minecraft Educator",
+    role: "President & Co-Founder | Minecraft Educator",
     imageUrl: jocelynn,
-    bio: "Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.",
-    linkedinUrl: "#",
+    bio: "Jocelynn is a cloud engineer by day and freelances custom web development on the side. She was inspired to found this philanthropy because she is passionate about increasing the amount of diversity in technology. She is a certified Minecraft Teacher and she cannot wait to teach more students about code and logic through Minecraft.",
+    linkedinUrl: "https://www.linkedin.com/in/jocelynn23/",
   },
   {
     name: "Allison Ransom",
-    role: "Secretary | Minecraft Educator",
+    role: "Secretary & Co-Founder | Minecraft Educator",
     imageUrl: allison,
     bio: "Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.",
-    linkedinUrl: "#",
+    linkedinUrl: "https://www.linkedin.com/in/allison-ransom-1a1b8873/",
   },
   {
     name: "Emily Samoylov",
-    role: "Treasurer | Minecraft Educator",
+    role: "Treasurer & Co-Founder | Minecraft Educator",
     imageUrl: emily,
     bio: "Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.",
-    linkedinUrl: "#",
+    linkedinUrl: "https://www.linkedin.com/in/emily-samoylov/",
   },
 ];
 
