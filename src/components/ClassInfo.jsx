@@ -19,25 +19,25 @@ export default function ClassInfo() {
               Minecraft Coding Class
             </h3>
             <p className="mt-8 text-lg text-white">
-              Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum
-              urna sed consectetur neque tristique pellentesque. Blandit amet,
-              sed aenean erat arcu morbi.
+              We leverage Microsoft's Minecraft Education Curriculum to teach
+              students coding and computer science concepts.
             </p>
             <div className="prose prose-indigo mt-5 text-white">
               <p>
-                Sollicitudin tristique eros erat odio sed vitae, consequat
-                turpis elementum. Lorem nibh vel, eget pretium arcu vitae. Eros
-                eu viverra donec ut volutpat donec laoreet quam urna.
+                We start the class off with block code, giving students an
+                introduction to logic and core programmatic concepts.
               </p>
               <p>
-                Bibendum eu nulla feugiat justo, elit adipiscing. Ut tristique
-                sit nisi lorem pulvinar. Urna, laoreet fusce nibh leo. Dictum et
-                et et sit. Faucibus sed non gravida lectus dignissim imperdiet
-                a.
+                As the students advance their knowledge, and express interest,
+                we will break into three learning groups. One will stay focused
+                on block-code, and the other two will introduce JavaScript and
+                Python.
               </p>
               <p>
-                Dictum magnis risus phasellus vitae quam morbi. Quis lorem lorem
-                arcu, metus, egestas netus cursus. In.
+                We will meet one hour per week, for three months. At the end of
+                the course, we are hopeful that students will walk away with a
+                foundation in programming, preparing them to pursue further
+                education, or a career in technology.
               </p>
             </div>
           </div>
