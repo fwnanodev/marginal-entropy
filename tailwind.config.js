@@ -6,8 +6,15 @@ module.exports = {
       colors: {
         blue: "#29447f",
         slateGray: "#708090",
+        rose: "#f05365",
+        siennaRed: "#2a0800",
+        white: "#f9f8f8",
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require("@tailwindcss/typography"),
+    require("@tailwindcss/aspect-ratio"),
+    require("@tailwindcss/forms"),
+  ],
 };

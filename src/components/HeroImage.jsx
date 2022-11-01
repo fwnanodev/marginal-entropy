@@ -1,19 +1,4 @@
-import { useEffect, useState, useCallback } from "react";
-import getBannerText from "../services/getBannerText";
-
 export default function HeroImage() {
-  const [bannerText, setBannerText] = useState();
-
-  const fetchData = useCallback(() => {
-    getBannerText().then((rawText) => {
-      setBannerText(rawText);
-    });
-  }, []);
-
-  useEffect(() => {
-    fetchData();
-  }, [fetchData]);
-
   return (
     <div className="relative bg-gray-50 overflow-hidden">
       <div
@@ -30,8 +15,8 @@ export default function HeroImage() {
               <span className="block xl:inline">Marginal</span>{" "}
               <span className="block text-blue xl:inline">Entropy</span>
             </h1>
-            <p className="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-              {bannerText && bannerText.value}
+            <p className="italic mt-10 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:text-xl md:max-w-3xl">
+              Lowering the barrier to technology for marginalized communities.
             </p>
             <div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
               <div className="rounded-md shadow"></div>
