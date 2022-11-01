@@ -1,15 +1,15 @@
 export default function SignUp() {
   return (
     <>
-      <div className="bg-white border border-t-siennaRed flex min-h-full flex-col justify-center py-12 sm:px-6 lg:px-8">
+      <div className="bg-white border border-t-blue flex min-h-full flex-col justify-center py-12 sm:px-6 lg:px-8">
         <div className="sm:mx-auto sm:w-full sm:max-w-md">
-          <h2 className="mt-6 text-center text-3xl font-bold tracking-tight text-siennaRed">
+          <h2 className="mt-6 text-center text-3xl font-bold tracking-tight text-blue">
             Register for Minecraft Coding Class
           </h2>
         </div>
 
         <div className="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
-          <div className="bg-white py-8 px-4 shadow sm:rounded-lg sm:px-10">
+          <div className="bg-white py-8 px-4 shadow-md sm:rounded-lg sm:px-10">
             <form className="space-y-6" action="#" method="POST">
               <div>
                 <label
@@ -68,7 +68,7 @@ export default function SignUp() {
               <div>
                 <button
                   type="submit"
-                  className="flex w-full justify-center rounded-md border border-transparent bg-siennaRed py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-blue focus:outline-none focus:ring-2 focus:ring-blue focus:ring-offset-2"
+                  className="flex w-full justify-center rounded-md border border-transparent bg-blue py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-siennaRed focus:outline-none focus:ring-2 focus:ring-siennaRed focus:ring-offset-2"
                 >
                   Request Registration
                 </button>
