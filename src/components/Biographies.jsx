@@ -14,14 +14,14 @@ const people = [
     name: "Allison Ransom",
     role: "Secretary & Co-Founder | Minecraft Educator",
     imageUrl: allison,
-    bio: "Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.",
+    bio: "Allison Ransom has been in software engineering since 2009. She has held professional positions as an engineer, a mentor, and a leader. She truly has an engineer’s mind and a teacher’s heart. Her role within Marginal Entropy includes using her experience teaching others how to code to enrich students’ experience in our Minecraft Class. She also plays a strong role in our curriculum adaption, website design, and overall organization.",
     linkedinUrl: "https://www.linkedin.com/in/allison-ransom-1a1b8873/",
   },
   {
     name: "Emily Samoylov",
     role: "Treasurer & Co-Founder | Minecraft Educator",
     imageUrl: emily,
-    bio: "Ultricies massa malesuada viverra cras lobortis. Tempor orci hac ligula dapibus mauris sit ut eu. Eget turpis urna maecenas cras. Nisl dictum.",
+    bio: "Emily Samoylov is a builder in every sense of the word. She has built automation, websites, mobile apps, and incredible structures in Minecraft. She has also built up those around her with a willingness to teach, share knowledge, and always be an insightful friend. In Emily's professional life, she's a full-stack React and C# developer with two years of professional experience and many more years of tinkering with and enjoying coding. In her personal life she loves video games, her cat, and keeping up on all things Linux. Emily was driven to help co-found Marginal Entropy from a love of Minecraft, her joy in learning and sharing new things, and her desire to bridge the gender gap in STEM. She is certified as a Minecraft Educator and looks forward to inspiring students to love coding.",
     linkedinUrl: "https://www.linkedin.com/in/emily-samoylov/",
   },
 ];
