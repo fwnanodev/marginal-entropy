@@ -36,9 +36,10 @@ export default function Biographies() {
               Our Team
             </h2>
             <p className="text-xl text-gray-500">
-              Nulla quam felis, enim faucibus proin velit, ornare id pretium.
-              Augue ultrices sed arcu condimentum vestibulum suspendisse.
-              Volutpat eu faucibus vivamus eget bibendum cras.
+              We are a group of technologists by trade, and educators at heart.
+              We are incredibly grateful for the opportunity to use our
+              professional skills to help bridge the diversity gap in
+              technology.
             </p>
           </div>
           <div className="lg:col-span-2">
