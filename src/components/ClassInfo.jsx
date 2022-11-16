@@ -19,11 +19,26 @@ export default function ClassInfo() {
               Free Minecraft Coding Class
             </h3>
             <p className="mt-8 text-white">
-              We leverage Microsoft's Minecraft Education Curriculum to teach
-              students coding and computer science concepts.
+              Your student will learn about coding and computer science concepts
+              through Microsoft's Minecraft Education Curriculum.
             </p>
             <div className="prose mt-5 text-white">
-              <p>
+              <p>Class details:</p>
+              <ul>
+                <li>
+                  Completely cost-free. No tuition. No licensing/books fees.
+                </li>
+                <li>1:3 teacher to student ratio</li>
+                <li>
+                  An introduction to logic and programming through block-code
+                </li>
+                <li>
+                  A deeper dive into programming languages, depending on student
+                  ability and interest
+                </li>
+                <li>An hour per week, for three months</li>
+              </ul>
+              {/* <p>
                 We start the class with block code, introducing students to
                 logic and core programming concepts.
               </p>
@@ -38,7 +53,7 @@ export default function ClassInfo() {
                 the course, we hope that students will walk away with a
                 foundation in programming, preparing them to pursue further
                 education or a career in technology.
-              </p>
+              </p> */}
             </div>
           </div>
         </div>
