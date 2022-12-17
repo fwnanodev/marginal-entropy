@@ -38,22 +38,6 @@ export default function ClassInfo() {
                 </li>
                 <li>An hour per week, for three months</li>
               </ul>
-              {/* <p>
-                We start the class with block code, introducing students to
-                logic and core programming concepts.
-              </p>
-              <p>
-                As the students advance their knowledge and express interest, we
-                will split into three specialized learning groups. One will stay
-                focused on block-code, and the other classes will introduce
-                JavaScript and Python.
-              </p>
-              <p>
-                We will meet one hour per week for three months. At the end of
-                the course, we hope that students will walk away with a
-                foundation in programming, preparing them to pursue further
-                education or a career in technology.
-              </p> */}
             </div>
           </div>
         </div>

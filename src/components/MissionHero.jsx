@@ -26,13 +26,9 @@ export default function MissionHero() {
   return (
     <div className="bg-white">
       {/* Header */}
-      <div className="relative bg-siennaRed pb-32">
-        <div className="absolute inset-0">
-          <div></div>
-          <div
-            className="absolute inset-0 bg-siennaRed mix-blend-multiply"
-            aria-hidden="true"
-          />
+      <div className="relative pb-32">
+        <div className="absolute inset-0 bg-siennaRed">
+          <div className="absolute inset-0" aria-hidden="true" />
         </div>
         <div className="relative mx-auto max-w-7xl py-24 px-4 sm:py-32 sm:px-6 lg:px-8">
           <h1 className="text-4xl font-bold tracking-tight text-white md:text-5xl lg:text-6xl">
