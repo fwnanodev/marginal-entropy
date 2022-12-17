@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import HeroImage from "../components/HeroImage";
 import MissionHero from "../components/MissionHero";
 import SignUp from "../components/SignUp";
+import Testimonials from "../components/Testimonials";
 
 const LandingPage = () => {
   return (
@@ -13,6 +14,7 @@ const LandingPage = () => {
       <ClassInfo />
       <Biographies />
       <SignUp />
+      <Testimonials />
       <Footer />
     </>
   );
