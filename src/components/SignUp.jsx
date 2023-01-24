@@ -10,8 +10,7 @@ export default function SignUp() {
 
         <div className="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
           <div className="bg-white py-8 px-4 shadow-md sm:rounded-lg sm:px-10">
-            <form className="space-y-6" method="POST" action="https://getform.io/f/352db9a4-b2d3-431a-a80c-7ef89153cbab
-">
+            <form className="space-y-6" method="POST" action="https://getform.io/f/352db9a4-b2d3-431a-a80c-7ef89153cbab">
               <div>
                 <label
                   htmlFor="email"
