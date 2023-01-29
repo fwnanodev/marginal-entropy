@@ -36,7 +36,7 @@ export default function MissionHero() {
           </h1>
           <p className="mt-6 max-w-3xl text-xl text-gray-300">
             We are working towards remedying the diversity gap in technology
-            through accessability, education, and empathy.
+            through accessibility, education, and empathy.
           </p>
         </div>
       </div>

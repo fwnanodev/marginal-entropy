@@ -8,12 +8,12 @@ import SignUp from "../components/SignUp";
 const LandingPage = () => {
   return (
     <>
-      <HeroImage />
+      {/* <HeroImage /> */}
       <MissionHero />
       <ClassInfo />
       <Biographies />
       <SignUp />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };
