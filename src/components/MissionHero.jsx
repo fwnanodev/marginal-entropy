@@ -1,6 +1,6 @@
 const supportLinks = [
   {
-    name: "Accessability",
+    name: "Accessibility",
     href: "#",
     description:
       "We are providing a completely cost-free coding class, based on Microsoft's Minecraft Education curriculum. We will also provide laptops for any students who do not have access to the required hardware.",
