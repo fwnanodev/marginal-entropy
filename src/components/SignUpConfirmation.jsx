@@ -15,7 +15,12 @@ const SignUpConfirmation = () => {
             contact@marginalentropy.org
           </b>
           <div className="mt-12 text-2xl text-siennaRed hover:underline">
-            <a href="/">Return Home</a>
+            <button
+              type="submit"
+              className="flex w-full justify-center rounded-md border border-transparent bg-blue py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-siennaRed focus:outline-none focus:ring-2 focus:ring-siennaRed focus:ring-offset-2"
+            >
+              <a href="/">Return Home</a>
+            </button>
           </div>
         </div>
         {/* </div> */}
