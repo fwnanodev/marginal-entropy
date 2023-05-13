@@ -7,8 +7,9 @@ export const DonateButtonUrl = () => {
             Donate to Marginal Entropy.
           </h2>
           <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-white">
-            All proceeds go directly into running and operating our free classes. Donations help
-            ensure there are enough laptops for each student to use for class .
+            All proceeds go directly into running and operating our free
+            classes. Donations help ensure there are enough laptops for each
+            student to use for class.
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
             <a
