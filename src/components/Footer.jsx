@@ -51,8 +51,12 @@ export default function Footer() {
         </div>
         <div className="mt-8 md:order-1 md:mt-0">
           <p className="text-center text-base text-white">
-            &copy; {thisYear < 2023 ? "2022" : thisYear} Marginal Entropy. All
-            rights reserved.
+            &copy; {thisYear < 2023 ? "2022" : thisYear} Marginal Entropy. All rights reserved. 
+          </p>
+        </div>
+        <div className="mt-8 md:order-1 md:mt-0">
+          <p className="text-center text-base text-white">
+            Marginal Entropy Inc. is a registered 501c3 charity with the IRS, EIN: 92-0360686   
           </p>
         </div>
       </div>
